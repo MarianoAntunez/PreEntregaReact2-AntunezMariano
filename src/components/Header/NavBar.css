@@ -1,0 +1,36 @@
+.NavBar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32pc;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  width: 14pc;
+}
+
+.menuNav {
+  display: flex;
+  gap: 25px;
+}
+
+.menuNav a {
+  font-size: 20px;
+  color: white;
+  transition: 0.3s;
+}
+.menuNav a:hover {
+  color: orange;
+  transition: 0.3s;
+}
+
+.menuNav span {
+  border: 1px solid;
+  color: #FF6508;
+}
